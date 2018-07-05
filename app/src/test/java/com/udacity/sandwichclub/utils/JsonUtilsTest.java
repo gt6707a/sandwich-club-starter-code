@@ -24,6 +24,6 @@ public class JsonUtilsTest {
 
         Sandwich sandwich = JsonUtils.parseSandwichJson(json);
         assertEquals("Ham and cheese", sandwich.getMainName());
-        // ideally, we would test for equality of properties as we would expect.
+        // ideally, we would test for equality of other properties as well.
     }
 }
